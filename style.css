@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #0B1A38;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.root{
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.nav{
+    width: 100%;
+    height: 95px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    /* imp */
+    position: fixed;
+    /* position: sticky; */
+     
+}
+
+
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 80px;
+    font-size: 13px;
+    
+}
+
+.nav_bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav_bar ul li {
+    list-style-type: none;
+    padding: 0 25px 0 14px;
+}
+.nav_bar ul li a{
+    text-decoration: none;
+    color: #84C7FF;
+}
+.img img{
+    justify-content: flex-start;
+    width: 116px;
+    /* margin-right: 21px; */
+    padding-left: 27px;
+}  
+
+.Resume{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #16bbca;
+    border-radius: 7px 5px;
+    /* color: #388F86; */
+    color: rgb(15, 239, 164);
+}
+
+.nav_bar span{
+    color: aquamarine;
+}
+
+
+/* main  */
+.main1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: calc(100% - 100px);
+    /* height: calc(100% - 95px); */
+    border: 3px solid red;
+
+}
+
+/* main_left */
+
+.main_left h1{
+    margin-top: 18px;
+    font-weight: 700;
+    /* font-size: clamp(25px, 5vw, 50px); */
+    font-size: 50px;
+    color: #CCD6F6;
+}
+
+.main_left h2{
+    
+    font-weight: 700;
+    /* font-size: clamp(25px, 5vw, 50px); */
+    font-size: 19px;
+    color: #54D5BB;
+}
+
+
+.main_left pre
+{
+    margin-top: 25px;
+    color: #505D78;
+}
+
+.get_touch{
+    border: 1px solid aqua;
+    font-size: 19px;
+    font-weight:bold;
+    width: 160px;
+    padding: 10px;
+    color: #388F86;
+    border-radius: 3px 3px;
+
+}
+/* main_right */
+.main_right{
+    display: flex;
+    align-items: center;
+}
+.main_right img{
+    width: 230px;
+    border-radius: 10px 12px;
+}
+
+.section_aboutMe{
+    padding-top:100px ;
+    height: calc(100% - 100px);
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutMe_left{
+    /* display: flex;
+    align-items: center; */
+    border: 2px solid red;
+}
+.aboutMe_left img{
+    width: 250px;
+    border-radius: 9px 9px;
+    margin-top: 30px;
+}
+
+.aboutMe_right,p{
+    width: 450px;
+    color: #66718D;
+    text-align: justify;
+    line-height: 22px;
+}
+.aboutMe_right span,a{
+    color: #63fcd8;
+}
+
+.skill{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.about02{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.about02 h1{
+    color: #CCD6F6;
+}
+
+
+/* project */
+
+/* proj1 */
+
+.projects{
+    margin-top: 100px;
+    height: calc(100% - 100px);
+    border: 2px solid yellow;
+}
+.proj1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading1{
+    display: flex;
+    align-items: baseline;
+}
+
+.heading1 span{
+    color: #5AE6D8;
+}
+.heading1 h1{
+    color: #CCD6F6;
+}
+
+.proj1 img{
+    width: 760px;
+    margin-top: 20px;
+    border-radius: 10px 12px;
+}
+.proj1_left{
+    display: flex;
+    flex-direction: column;
+}
+
+/* proj 1 right */
+
+.proj1_right,.proj1_right p{
+    text-align:right;
+}
+
+.proj1_right_Content p{
+    background-color: #112240;
+}
+.proj1_right_Content{
+    /* background-color: #112240; */
+    /* background-color: #63fcd8; */
+    padding: 10px;
+    border: 1px solid red;
+    background-color: #112240;
+    color: #8C96B5;
+    height: 25%;
+    height: 30%;
+    
+}
+
+.proj1_right h1{
+    margin-top: 5%;
+    margin-bottom: 4%;
+    color: #CCD6F6;
+} 
+.proj1_right span{
+    color: #5ae9da;
+}
+
+.last_projsen{
+    margin-top: 10%;
+    word-spacing:  0.5em;
+}
